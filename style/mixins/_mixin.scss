@@ -1,0 +1,12 @@
+@mixin text-style-header{
+    color: white;
+    font-family: "Inter 400";
+    font-size: 12pt;
+    text-align: right;
+}
+@mixin text-style-first{
+    color: white;
+    font-family: "Inter 600";
+    font-size: 10pt;
+    text-align: right;
+}

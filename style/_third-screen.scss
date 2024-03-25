@@ -1,0 +1,22 @@
+.third-screen{
+    p{
+        @include text-style-first;
+        font-size: 55px;
+        text-align: left;
+    }
+    .sponsors{
+    display: flex;
+    // height: 160px;
+    justify-content: space-evenly;
+    width:auto;
+    margin: 1vw;
+    padding: 1.5vw;
+    border-radius: 10px;
+    border: solid 1px white;
+    background: linear-gradient(180deg, #393939 0%, #2E2E2E 100%);
+    img{
+        height: 2.5vw;
+        width: fit-content;
+    }
+    }
+}

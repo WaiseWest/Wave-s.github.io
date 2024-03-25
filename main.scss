@@ -1,0 +1,21 @@
+@font-face {
+	font-family: 'Inter 200'; 
+	src: url(/Inter/Inter-Thin.otf); 
+}
+@font-face {
+	font-family: 'Inter 600'; 
+	src: url(/Inter/Inter-Medium.otf); 
+}
+@font-face {
+	font-family: 'Inter 400'; 
+	src: url(/Inter/Inter-Regular.otf); 
+}
+@import "./style/mixins/mixin";
+@import "./style/body";
+@import "./style/header";
+@import "./style/underheader";
+@import "./style/first-screen";
+@import "./style/second-screen";
+@import "./style/third-screen";
+@import "./style/forth-screen";
+@import "./style/footer";

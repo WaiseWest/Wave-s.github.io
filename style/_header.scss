@@ -1,0 +1,42 @@
+.header{
+    @include text-style-header;
+    width: 100%;
+    display: inline-grid;
+    justify-content: space-between;
+    grid-template-columns: auto 25% auto auto auto;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 1px solid rgba($color: #FFFFFF, $alpha: 0.3);
+    .left{
+        display: flex;
+        @include text-style-header;
+        text-align: left;
+        img{
+            width: 15px;
+            margin-top: auto;
+            margin-bottom:auto;
+            margin-right: 5px;
+        }
+    }
+    img{
+        width: 15px;
+        margin-top: auto;
+        margin-bottom:auto;
+        margin-right: 5px;
+    }
+    .block{
+        display: flex;
+    }
+    @media (max-width: 1200px) {
+        font-size: 11px ;
+        .left{
+            font-size: 11px;
+        }
+    }
+    @media (max-width: 1000px) {
+        font-size: 10px ;
+        .left{
+            font-size: 10px;
+        }
+    }
+}
